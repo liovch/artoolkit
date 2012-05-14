@@ -198,7 +198,7 @@ public:
 	 * in an ARToolKit camera calibration file.
 	 * Returns true if loading of the camera file succeeded.
 	 */
-	static bool calcCameraMatrix(const char* nCamParamFile, int nWidth, int nHeight,
+    bool calcCameraMatrix(const char* nCamParamFile, int nWidth, int nHeight,
 								 ARFloat nNear, ARFloat nFar, ARFloat *nMatrix);
 
 	

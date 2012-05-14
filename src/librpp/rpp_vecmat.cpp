@@ -40,7 +40,8 @@
 
 #ifndef _NO_LIBRPP_
 
-
+#include <stdio.h>
+#include <stdlib.h>
 #include "rpp_vecmat.h"
 #include "math.h"
 #include "assert.h"

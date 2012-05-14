@@ -22,7 +22,7 @@ CONFIG		= debug
 equals(ARCH, x86_64) {
   # options for AMD64
 }
-else {
+equals(ARCH, x86_32) {
 #  QMAKE_CXXFLAGS      = -mtune=pentium4 -march=pentium4 -msse2 -msse -fpermissive
   QMAKE_CXXFLAGS      = -mtune=pentium4 -march=pentium4 -msse2 -msse 
 }

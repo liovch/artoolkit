@@ -77,3 +77,12 @@ data_multi.files = ../sample/multi/data/*.dat ../sample/multi/data/*.cal ../samp
 INSTALLS += target headers headers_extra doc data_simple data_multi
 
 ################################
+
+OTHER_FILES += \
+    qtc_packaging/debian_harmattan/rules \
+    qtc_packaging/debian_harmattan/README \
+    qtc_packaging/debian_harmattan/manifest.aegis \
+    qtc_packaging/debian_harmattan/copyright \
+    qtc_packaging/debian_harmattan/control \
+    qtc_packaging/debian_harmattan/compat \
+    qtc_packaging/debian_harmattan/changelog
